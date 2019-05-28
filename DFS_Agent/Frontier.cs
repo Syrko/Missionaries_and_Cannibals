@@ -1,21 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace DFS_Agent
 {
 	class Frontier
 	{
-		private Queue<State> FrontierQueue = new Queue<State>();
+		private Stack<State> FrontierQueue = new Stack<State>();
 
 		public void Add(State stateToAdd)
 		{
-			FrontierQueue.Enqueue(stateToAdd);
+			FrontierQueue.Push(stateToAdd);
 		}
 
 		public State Remove()
 		{
-			return FrontierQueue.Dequeue();
+			return FrontierQueue.Pop();
 		}
 
 		public bool isEmpty()
