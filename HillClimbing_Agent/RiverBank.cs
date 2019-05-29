@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HillClimbing_Agent
+﻿namespace HillClimbing_Agent
 {
 	class RiverBank
 	{

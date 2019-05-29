@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DFS_Agent
+﻿namespace DFS_Agent
 {
 	class RiverBank
 	{
