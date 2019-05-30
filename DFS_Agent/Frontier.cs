@@ -4,21 +4,21 @@ namespace DFS_Agent
 {
 	class Frontier
 	{
-		private Stack<State> FrontierQueue = new Stack<State>();
+		private Stack<State> FrontierStack = new Stack<State>();
 
 		public void Add(State stateToAdd)
 		{
-			FrontierQueue.Push(stateToAdd);
+			FrontierStack.Push(stateToAdd);
 		}
 
 		public State Remove()
 		{
-			return FrontierQueue.Pop();
+			return FrontierStack.Pop();
 		}
 
 		public bool isEmpty()
 		{
-			if (FrontierQueue.Count > 0)
+			if (FrontierStack.Count > 0)
 				return false;
 			else
 				return true;
@@ -27,7 +27,7 @@ namespace DFS_Agent
 		public string printFrontier()
 		{
 			string returnValue = "<";
-			foreach(State state in FrontierQueue)
+			foreach(State state in FrontierStack)
 			{
 				returnValue += state.getID().ToString() + ", ";
 			}
