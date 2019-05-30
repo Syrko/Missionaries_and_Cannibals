@@ -74,7 +74,8 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					returnList.Add(tempState);
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -84,7 +85,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() - 0, riverBankLeft.getMissionaries() - 2, riverBankRight.getCannibals() + 0, riverBankRight.getMissionaries() + 2, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -94,7 +101,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() - 1, riverBankLeft.getMissionaries() - 1, riverBankRight.getCannibals() + 1, riverBankRight.getMissionaries() + 1, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -104,7 +117,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() - 1, riverBankLeft.getMissionaries() - 0, riverBankRight.getCannibals() + 1, riverBankRight.getMissionaries() + 0, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -114,7 +133,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() - 0, riverBankLeft.getMissionaries() - 1, riverBankRight.getCannibals() + 0, riverBankRight.getMissionaries() + 1, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -127,7 +152,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() + 2, riverBankLeft.getMissionaries() + 0, riverBankRight.getCannibals() - 2, riverBankRight.getMissionaries() - 0, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -137,7 +168,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() + 0, riverBankLeft.getMissionaries() + 2, riverBankRight.getCannibals() - 0, riverBankRight.getMissionaries() - 2, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -147,7 +184,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() + 1, riverBankLeft.getMissionaries() + 1, riverBankRight.getCannibals() - 1, riverBankRight.getMissionaries() - 1, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -157,7 +200,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() + 1, riverBankLeft.getMissionaries() + 0, riverBankRight.getCannibals() - 1, riverBankRight.getMissionaries() - 0, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
@@ -167,7 +216,13 @@ namespace DFS_Agent
 				tempState = new State(riverBankLeft.getCannibals() + 0, riverBankLeft.getMissionaries() + 1, riverBankRight.getCannibals() - 0, riverBankRight.getMissionaries() - 1, boatIs);
 				if (tempState.isValidState())
 				{
-					returnList.Add(tempState);
+					if (closedSet.contains_get_id(tempState) != -1)
+					{
+						tempState.id = closedSet.contains_get_id(tempState);
+						State.idCount--;
+					}
+					else
+						returnList.Add(tempState);
 				}
 				else
 				{
