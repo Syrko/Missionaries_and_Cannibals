@@ -9,7 +9,7 @@ namespace BestFS_Agent
 
 		private const string LEFT = "left";
 		private const string RIGHT = "right";
-		private const int BOAT_CAPACITY = 2;
+		private const double BOAT_CAPACITY = 2.0;
 
 		private RiverBank riverBankLeft;
 		private RiverBank riverBankRight;
@@ -80,8 +80,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -96,8 +95,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -112,8 +110,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -128,8 +125,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -144,8 +140,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -163,8 +158,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -179,8 +173,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -195,8 +188,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -211,8 +203,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -227,8 +218,7 @@ namespace BestFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{

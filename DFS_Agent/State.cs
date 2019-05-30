@@ -74,8 +74,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -90,8 +89,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -106,8 +104,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -122,8 +119,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -138,8 +134,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -157,8 +152,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -173,8 +167,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -189,8 +182,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -205,8 +197,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
@@ -221,8 +212,7 @@ namespace DFS_Agent
 						tempState.id = closedSet.contains_get_id(tempState);
 						State.idCount--;
 					}
-					else
-						returnList.Add(tempState);
+					returnList.Add(tempState);
 				}
 				else
 				{
